@@ -1,0 +1,43 @@
+.modal-body .table td:first-child{
+  width: 110px;
+}
+.modal-body .table td:first-child{
+  width:auto;
+}
+.modal-body .table td:nth-child(2){
+  width: 130px;
+}
+.modal-body .table td:nth-child(3){
+  width: 130px;
+}
+.flexb{
+  display: flex;
+  justify-content: space-between;
+}
+
+.table>tbody>tr>td{
+  padding: 3px;
+}
+.panel-title>a{
+  width: 100%;
+  display: inline-block;
+}
+.table>tbody>tr.info-strong>td{
+  background-color: #a6d7f0;
+}
+.table-hover>tbody>tr.info-strong:hover td{
+  background-color: #7ebad8;
+}
+.table-bordered>tbody>tr.tr-sep td{
+  height: 15px;
+  border: none;
+}
+#store-settle .form-control{
+  height: 25px;
+}
+
+
+#flexb{
+  display: flex;;
+  justify-content: space-between;
+}

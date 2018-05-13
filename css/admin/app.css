@@ -1,0 +1,486 @@
+.no-js #loader { display: none;  }
+.js #loader { display: block; position: absolute; left: 100px; top: 0; }
+.se-pre-con {
+	position: fixed;
+	left: 0px;
+	top: 0px;
+	width: 100%;
+	height: 100%;
+	z-index: 9999;
+	background: url(simple-pre-loader/Preloader_8.gif) center no-repeat #fff;
+}
+
+
+
+.miniatura{
+	display : inline-block;
+	width : 40px;
+	box-sizing: border-box;
+	margin-bottom: 0px;
+}
+
+.thumb-div{
+	width:120px; margin: 0 auto;
+}
+
+.pull-right form{
+	width: 300px;
+}
+
+
+.digitalizado{
+	display : inline-block;
+	width : 100%;
+	box-sizing: border-box;
+	margin-bottom: 0px;
+}
+
+
+
+
+.padding-15 {
+    padding: 15px;
+		position: relative;
+}
+
+.bg-warning::before{
+		background-image: url("../../store/img/warning.png");
+		background-repeat: no-repeat;
+    background-size: 20px 20px;
+		display: inline-block;
+    width: 25px;
+    height: 20px;
+		content: "";
+}
+
+/* editando elemento del formulario*/
+
+.page-header{
+	/*padding: 15px 10px 0px 10px;*/
+}
+
+#page-wrapper{
+	/*padding: 0;*/
+}
+.table.table-striped.table-hover thead tr th:first-child{
+	width: 15%;
+}
+
+.form-group{
+	margin-bottom: 2px;
+	/*height: 70px;*/
+	position: relative;
+}
+
+label{
+	font-size: 12px;
+	color: #747474;
+}
+label.error {
+	background: #FF0000;
+	color: #FFF;
+	display: inline-block;
+	padding: 1px 2px;
+}
+
+
+.receipt-edit, .receipt-delete{
+	margin: 0 2px;
+}
+
+
+
+
+/* Editing the tootltipster */
+.tooltipster-sidetip.tooltipster-light.tooltipster-light-validate .tooltipster-box {
+	color: #a94442;
+  background-color: #f2dede;
+  border-color: #ebccd1;
+}
+
+.tooltipster-sidetip.tooltipster-light.tooltipster-light-validate .tooltipster-content {
+	color: red;
+	padding: 6px;
+}
+
+/* animation for alerts boostrap */
+.animate-alert-top {
+    -webkit-animation: fade-in-alert 0.8s; /* Safari and Chrome */
+    -moz-animation: fade-in-alert 0.8s; /* Firefox */
+    -ms-animation: fade-in-alert 0.8s; /* Internet Explorer */
+    -o-animation: fade-in-alert 0.8s; /* Opera */
+    animation: fade-in-alert 0.8s;
+}
+@keyframes fade-in-alert {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+/* Firefox */
+@-moz-keyframes fade-in-alert {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+/* Safari and Chrome */
+@-webkit-keyframes fade-in-alert {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+/* Internet Explorer */
+@-ms-keyframes fade-in-alert {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+/* Opera */
+@-o-keyframes fade-in-alert {
+    from { opacity: 0; }
+    to   { opacity: 1; }
+}
+
+
+
+
+
+
+.form-horizontal .form-group{
+	margin-right: 0px;
+	margin-left: 0px;
+}
+
+.form-group div.row div:not(.form-group){
+	margin-bottom: 3px;
+	margin-top: 3px;
+}
+
+.form-group label{
+	font-weight: 700;
+	color: black;
+}
+
+.panel-body{
+	padding: 10px;
+}
+
+.col-lg-1, .col-lg-10, .col-lg-11, .col-lg-12, .col-lg-2, .col-lg-3, .col-lg-4,
+ .col-lg-5, .col-lg-6, .col-lg-7, .col-lg-8, .col-lg-9, .col-md-1, .col-md-10,
+ .col-md-11, .col-md-12, .col-md-2, .col-md-3, .col-md-4, .col-md-5, .col-md-6,
+ .col-md-7, .col-md-8, .col-md-9, .col-sm-1, .col-sm-10, .col-sm-11, .col-sm-12,
+ .col-sm-2, .col-sm-3, .col-sm-4, .col-sm-5, .col-sm-6, .col-sm-7, .col-sm-8,
+ .col-sm-9, .col-xs-1, .col-xs-10, .col-xs-11, .col-xs-12, .col-xs-2, .col-xs-3,
+ .col-xs-4, .col-xs-5, .col-xs-6, .col-xs-7, .col-xs-8, .col-xs-9 {
+    padding-right: 3px;
+    padding-left: 3px;
+	}
+
+.invalid-element{
+    box-shadow: 0 0 2px #d45252;
+    border-color: #b03535;
+}
+
+div.invalid-element {
+    color: red;
+    box-shadow: none;
+    border-color: #fff;
+		z-index: 100000;
+}
+
+.valid-element {
+    box-shadow: 0 0 2px #5cd053;
+    border-color: #28921f;
+}
+div.valid-element{
+	box-shadow: none;
+	border-color: #fff;
+}
+
+div.form-group div.row, #page-wrapper .row{
+	margin-right: 2px;
+	margin-left: 2px;
+}
+
+.navbar-brand:first-child{
+	padding-right: 5px;
+}
+.navbar-brand:nth-child(2){
+	padding-left: 0px;
+}
+
+.form-inline{
+	margin-top: 2px;
+}
+
+@media (min-width: 769px){
+	.form-inline .form-control.solo{
+		width: 120px;
+	}
+}
+@media (max-width: 767px){
+	.form-inline .form-control {
+		width: 100%;
+	}
+}
+.form-nat{
+	height: auto;
+}
+@media (min-width: 993px){
+	.form-nat{
+		height: 36px;
+	}
+	.input-groups#forms-1{
+		height: 102px;
+	}
+	.input-groups#forms-2{
+		height: 93px;
+	}
+
+}
+
+.form-control[readonly]{
+	cursor:pointer;
+}
+
+.fa-2 {
+    font-size: 2em;
+}
+.fa-3 {
+    font-size: 4em;
+}
+.fa-4 {
+    font-size: 7em;
+}
+.fa-5 {
+    font-size: 12em;
+}
+
+.spam-margins{
+	margin:3px;
+}
+
+.fa.touch{
+	cursor:pointer;
+}
+
+.form-date{
+	max-width: 12em;
+}
+.form-small{
+	max-width: 12em;
+}
+
+
+
+#wrapper {
+  transition: all 0.4s ease 0s;
+}
+#sidebar-wrapper {
+  margin-left: -250px;
+  left: 250px;
+  position: fixed;
+  height: 100vh;
+  overflow-y: auto;
+  z-index: 1000;
+  transition: all 0.4s ease 0s;
+}
+
+#wrapper.active {
+  padding-left: 0;
+}
+
+#wrapper.active #sidebar-wrapper {
+  left: 0;
+}
+
+#page-wrapper {
+  transition: all 0.4s ease 0s;
+}
+
+#wrapper.active #page-wrapper {
+  margin-left: 0px;
+}
+
+
+@media (max-width:767px) {
+	#menu-toggle{
+		display: none;
+	}
+	.navbar-brand:nth-child(2){
+		padding-left: 15px;
+	}
+}
+
+@media (min-width: 768px){
+	#page-wrapper {
+    position: inherit;
+    margin-left: 250px;
+    padding: 25px 10px 0 15px;
+    border-left: 1px solid #e7e7e7;
+	}
+
+	.table.table-striped.table-hover thead tr th:first-child{
+		width: 90px;
+	}
+}
+
+table {
+  table-layout: fixed;
+}
+
+
+
+/* fin de edicion de los elementos del formulario */
+
+
+.img-loading{
+	height: 34px;
+	width: 100%;
+	display: none;
+}
+
+
+.input-groups{
+	float:left;
+}
+
+
+/*@media (max-width:767px){*/
+	.input-groups{
+		height: auto;
+	}
+/*}*/
+
+
+.navbar-fixed-bottom .navbar-collapse, .navbar-fixed-top .navbar-collapse {
+    max-height: 100vh;
+}
+
+
+
+@media (min-width:768px) and (max-width:992px){
+	.thumb-div{
+		width:220px;
+	}
+
+	.input-groups#forms-2{
+		height: 93px;
+	}
+}
+
+@media (min-width:992px){
+	.thumb-div{
+			width:180px;
+	}
+	.input-groups{
+		/*height: 70px;*/
+	}
+	.form-sentence{
+		width: 155px;
+		display: inline;
+	}
+}
+
+.fa-fw{
+    position: relative;
+    display: inline-block;
+}
+
+/* for Modal Header */
+.modal-header{
+	display: flex;
+  justify-content: space-between;
+}
+
+/* for all modal */
+.modal .modal-body .panel{
+	margin-bottom: 0px;
+	cursor: pointer;
+}
+.modal .modal-body .panel .panel-footer:hover{
+	background-color: #bdbdbd;
+}
+@media (min-width: 768px){
+	.modal-content {
+	   min-width: 400px;
+	}
+}
+
+#personModal .modal-title{
+	display: flex;
+	justify-content: space-between;
+	width: 100%;
+	padding: 5px 20px;
+	box-sizing: border-box;
+}
+
+#personModal .modal-title .search-bar{
+	width: 40%;
+}
+
+
+
+/* Tooltip text */
+.fa-fw .tooltiptext {
+		font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+		font-weight: bold;
+	  font-size: 14px;
+		opacity: 0;
+    transition: opacity 1s;
+		 top: 120%;
+		 left: 50%;
+		 transform: translateX(-20%);
+    background-color: #555;
+    color: #fff;
+    text-align: center;
+    padding: 8px 18px 8px 18px;
+    border-radius: 6px;
+
+    /* Position the tooltip text - see examples below! */
+    position: absolute;
+    z-index: 1;
+}
+
+.fa-fw .tooltiptext::after {
+    content: " ";
+    position: absolute;
+    bottom: 100%;  /* At the top of the tooltip */
+    left: 25%;
+    margin-left: -8px;
+    border-width: 8px;
+    border-style: solid;
+    border-color: transparent transparent #555 transparent;
+}
+
+/* Show the tooltip text when you mouse over the tooltip container */
+.fa-fw:hover .tooltiptext {
+    opacity: 1;
+}
+
+.relative-pos{
+	position: relative;
+}
+
+.icon-right-abs{
+	position: absolute;
+	right: 8px;
+	top: 10px;
+	color: #b3b3b3;
+	cursor: pointer;
+}
+
+.icon-right-abs-2{
+	position: absolute;
+	right: 28px;
+	top: 10px;
+	color: #b3b3b3;
+	cursor: pointer;
+}
+
+
+#password-input {
+    padding-left: 43px;
+    padding-right: 43px;
+    border-radius: 23px;
+    border-radius: 6px;
+}
+.input-lg {
+    padding: 10px 16px;
+    line-height: 1.3333333;
+}
